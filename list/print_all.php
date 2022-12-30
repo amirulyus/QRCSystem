@@ -83,11 +83,8 @@ img
 <thead>
 <?php
 $count=1;
-$student_id = $_GET['student_id'];
-
-// echo "student_id: " . $student_id;
-
-$sql = "SELECT id_matrik, fullname, department, level, branch, imageqr FROM details_members WHERE id_matrik = '$student_id'";
+$_GET= ["id_matrik"];
+$sql = "SELECT * FROM details_members ORDER BY id_matrik DESC";
 $result = mysqli_query($conn, $sql);
 while($row = mysqli_fetch_assoc($result)) { ?>
 <tr>
