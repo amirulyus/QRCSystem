@@ -10,6 +10,25 @@
   .row {
     display: flex;
   }
+
+  .table{
+    background-image: url("../image/img/bg3.jpg");
+    background-repeat: no-repeat;
+   border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: 162px;
+  width: 850px;
+   
+  }
+
+  .txt{
+    padding-top: 8px;
+    margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 32px;
+  }
 </style>
 <div class="row">
   <div class="col">
@@ -49,14 +68,15 @@
     <div>Employee name</div>-->
     <form action="">
       <input type="text" name="start" class="input" id="result" onkeyup="showHint(this.value)" placeholder="result here" readonly="" />
-
-      <div id="fullname"></div>
-      <div id="department"></div>
-      <div id="level"></div>
-      <div id="branch"></div>
+      <div class="table">
+      <div id="fullname" class="txt"></div>
+      <div id="department" class="txt"></div>
+      <div id="level" class="txt"></div>
+      <div id="branch" class="txt"></div>
+    </div>
     </form>
     <!--<p>Status: <span id="txtHint"></span></p>-->
-    <img src="../image/img/bg2.jpg" height='170px' width='1140px' id="txtHint" />
+    <!--<img src="../image/img/bg2.jpg" height='170px' width='1140px' id="txtHint" />-->
   </div>
 </div>
 <!--azizie-->
@@ -65,7 +85,7 @@
   function onScanSuccess(qrCodeMessage) {
     document.getElementById("result").value = qrCodeMessage;
     showHint(qrCodeMessage);
-    // playAudio(); // aku tutup audio, just disable kalau nak pakai
+    playAudio(); // aku tutup audio, just disable kalau nak pakai
     showInfoStudent(qrCodeMessage)
 
   }
