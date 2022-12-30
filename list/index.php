@@ -99,8 +99,9 @@ while($row = mysqli_fetch_assoc($result)) { ?>
 <a href="edit.php?id=<?php echo $row["id"]; ?>">Edit</a>
 </td>-->
 <td align="center">
-<a href="delete.php?id_matrik=<?php echo $row["id_matrik"]; ?>">Delete</a>&nbsp;&nbsp;
-<a href="view_id.php?student_id=<?php echo $row["id_matrik"]; ?>">View</a>
+<a href="delete.php?id_matrik=<?php echo $row["id_matrik"]; ?>" class="btn btn-danger">Delete</a>&nbsp;&nbsp;
+<a href="view_id.php?student_id=<?php echo $row["id_matrik"]; ?>" class="btn btn-warning">View</a>
+<a href="print_all.php?student_id=<?php echo $row["id_matrik"]; ?>" class="btn btn-primary">View All</a>
 </td>
 </tr>
 <?php $count++; } ?>
