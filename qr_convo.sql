@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 26, 2022 at 03:29 AM
+-- Generation Time: Dec 30, 2022 at 02:21 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -36,13 +36,6 @@ CREATE TABLE `details_members` (
   `imageqr` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `details_members`
---
-
-INSERT INTO `details_members` (`id_matrik`, `fullname`, `department`, `level`, `branch`, `imageqr`) VALUES
-('mcs1248', 'test', 'Computer System', '2', 'Breyer Kuala Lumpur', 'mcs1248.png');
-
 -- --------------------------------------------------------
 
 --
@@ -60,7 +53,12 @@ CREATE TABLE `logs` (
 --
 
 INSERT INTO `logs` (`id_matrik`, `name`, `Time`) VALUES
-('', '900110115305', '2022-12-25 19:04:34');
+('', '900110115305', '2022-12-25 19:04:34'),
+('', 'mcs1248', '2022-12-26 10:32:47'),
+('', 'mcs3737-2006-03', '2022-12-30 01:15:25'),
+('', 'wrm5467', '2022-12-30 15:13:04'),
+('', 'mcs85647', '2022-12-30 16:36:12'),
+('', 'mcs61574', '2022-12-30 21:10:29');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
