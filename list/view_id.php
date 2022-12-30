@@ -62,7 +62,7 @@ require('../Register/db.php');
       <a class="nav-link" href="../index.php">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="../praktisqr2/index.php">Register</a>
+      <a class="nav-link" href="../Register/index.php">Register</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="../list/index.php">List</a>
@@ -110,7 +110,7 @@ while($row = mysqli_fetch_assoc($result)) { ?>
 <?php $count++; } ?>
 </tbody>
 </table><br>
-<center><a href="http://localhost/QRCSystem/list/index.php" class="btn btn-primary">Back</a>&nbsp;&nbsp;<button onclick="window.print();" class="btn btn-danger">Print</button></center>
+<center><button onclick="window.print();" class="btn btn-danger">Print</button></center>
 </div>
 </body>
 </html>
