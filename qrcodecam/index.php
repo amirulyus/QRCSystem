@@ -27,7 +27,7 @@
     margin-left: 300px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 32px;
+    font-size: 20px;
   }
 </style>
 <div class="row">
@@ -69,6 +69,7 @@
     <form action="">
       <input type="text" name="start" class="input" id="result" onkeyup="showHint(this.value)" placeholder="result here" readonly="" />
       <div class="table">
+      </br></br>
       <div id="fullname" class="txt"></div>
       <div id="department" class="txt"></div>
       <div id="level" class="txt"></div>
