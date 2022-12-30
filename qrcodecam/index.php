@@ -85,7 +85,7 @@
   function onScanSuccess(qrCodeMessage) {
     document.getElementById("result").value = qrCodeMessage;
     showHint(qrCodeMessage);
-    playAudio(); // aku tutup audio, just disable kalau nak pakai
+    //playAudio(); // aku tutup audio, just disable kalau nak pakai
     showInfoStudent(qrCodeMessage)
 
   }
