@@ -91,7 +91,7 @@ while($row = mysqli_fetch_assoc($result)) { ?>
 <tr><th><strong>QR Codes</strong></th>
 <td  align="center"><?php echo "<img src='../Register/imageqr/".$row['imageqr']."' height='180' width='180'>"; ?></td>
 </tr>
-<tr><th><strong>No Matrik</strong></th>
+<tr><th><strong>ID Matrik/NUM IDENTITY</strong></th>
 <td><?php echo $row["id_matrik"]; ?></td></tr>
 <tr><th><strong>Name</strong></th>
 <td><?php echo $row["fullname"]; ?></td></tr>

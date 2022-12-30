@@ -73,7 +73,7 @@ require('../Register/db.php');
 <thead>
 <tr>
 <th><strong>Bil</strong></th>
-<th><strong>No Matrik</strong></th>
+<th><strong>ID Matrik/NUM IDENTITY</strong></th>
 <th><strong>Name</strong></th>
 <th><strong>Department</strong></th>
 <th><strong>Level</strong></th>

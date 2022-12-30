@@ -38,7 +38,7 @@
   <h3 class="txtwarning">*FILL WITH UPPERCASE</h3>
   <form action="proses.php" method="POST">
     <div class="form-group">
-      <label for="id_matrik">ID Matrik:</label>
+      <label for="id_matrik">ID Matrik/NUM IDENTITY:</label>
       <input type="text" class="form-control" name="id_matrik">
     </div>
     <div class="form-group">
