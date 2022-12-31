@@ -78,7 +78,7 @@ img
 </head>
 <body>
 <div class="form">
-<h2>Detail Individu</h2>
+<h2>Detail All</h2>
 <table width="25%" border="1" style="border-collapse:collapse;">
 <thead>
 <?php
@@ -107,7 +107,7 @@ while($row = mysqli_fetch_assoc($result)) { ?>
 <?php $count++; } ?>
 </tbody>
 </table><br>
-<center><a href="http://localhost/QRCSystem/list/index.php" class="btn btn-primary">Back</a>&nbsp;&nbsp;<button onclick="window.print();" class="btn btn-danger">Print</button></center>
+<center><button onclick="window.print();" class="btn btn-danger">Print</button></center>
 </div>
 </body>
 </html>
