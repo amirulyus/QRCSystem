@@ -69,7 +69,7 @@ require('../Register/db.php');
 <div class="form">
 <centre><h2>View Records</h2></centre>
 <button onclick="window.print();" class="btn btn-danger">Print</button>
-<table width="90%" border="1" style="border-collapse:collapse;">
+<table width="100%" border="1" style="border-collapse:collapse;">
 <thead>
 <tr>
 <th><strong>Bil</strong></th>
@@ -101,7 +101,7 @@ while($row = mysqli_fetch_assoc($result)) { ?>
 <td align="center">
 <a href="delete.php?id_matrik=<?php echo $row["id_matrik"]; ?>" class="btn btn-danger">Delete</a>&nbsp;&nbsp;
 <a href="view_id.php?student_id=<?php echo $row["id_matrik"]; ?>" class="btn btn-warning">View</a>
-<a href="print_all.php?student_id=<?php echo $row["id_matrik"]; ?>" class="btn btn-primary">View All</a>
+<a href="print_all.php?student_id=<?php echo $row["id_matrik"]; ?>" class="btn btn-primary">All</a>
 </td>
 </tr>
 <?php $count++; } ?>
