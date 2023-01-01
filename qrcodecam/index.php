@@ -17,8 +17,8 @@
    border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  height: 162px;
-  width: 850px;
+  height: 100px;
+  width: 842px;
    
   }
 
@@ -69,7 +69,6 @@
     <form action="">
       <input type="text" name="start" class="input" id="result" onkeyup="showHint(this.value)" placeholder="result here" readonly="" />
       <div class="table">
-      </br></br>
       <div id="fullname" class="txt"></div>
       <div id="department" class="txt"></div>
       <div id="level" class="txt"></div>
