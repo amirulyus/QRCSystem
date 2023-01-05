@@ -12,18 +12,18 @@
   }
 
   .table{
-    background-image: url("../image/img/bg3.jpg");
+    background-image: url("../image/img/bg2.jpg");
     background-repeat: no-repeat;
    border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  height: 100px;
-  width: 842px;
+  height: 90px;
+  width: 834px;
    
   }
 
   .txt{
-    padding-top: 8px;
+    padding-top: 5px;
     margin-left: 300px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;

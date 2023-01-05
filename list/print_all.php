@@ -101,6 +101,7 @@ while($row = mysqli_fetch_assoc($result)) { ?>
 <td><?php echo $row["level"]; ?></td></tr>
 <tr><th><strong>branch</strong></th>
 <td><?php echo $row["branch"]; ?></td></tr>
+<tr><th></th><td></td></tr>
 
 </thead>
 <tbody>
