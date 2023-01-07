@@ -1,7 +1,7 @@
 <?php
 
 // error_reporting(1);
-$mysqli = mysqli_connect("localhost", "root", "", "qr_convo");
+$mysqli = mysqli_connect("localhost", "root", "Yus@583890", "qr_convo");
 
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: " . $mysqli->connect_error;
